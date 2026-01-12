@@ -46,8 +46,7 @@ const slider = document.querySelector('.review-slider');
 const leftArrow = document.querySelector('.review-arrow.left');
 const rightArrow = document.querySelector('.review-arrow.right');
 
-const cardWidth = 260; // card width + gap
-
+const cardWidth = 260;
 rightArrow.addEventListener('click', () => {
     slider.scrollLeft += cardWidth;
 });
